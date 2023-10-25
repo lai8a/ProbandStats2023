@@ -80,37 +80,33 @@ public class MeanMedianMode{
     return Mode;   
     }
 
-    public static Double StandDev(double[] listofnums){
-        double N, mean, SD;
-        double sum = 0.0;
-        //Find mean.
-        mean = Mean(listofnums);
-        N = listofnums.length;
-        //Find sum(x - mean)^2 portion of equation.
-        for (double x : listofnums){
-            double distsquare = (x - mean) * (x - mean);
-            sum += distsquare;
-        }
-
-        SD = Math.sqrt(sum / N);
-        return SD;
-    }
-
     public static void main(String[] tests){
+        //Mean tests: 
         double[] testMean1 = {8, 13, 20, 35, 9, 45, 60};
         Object answer1 = Mean(testMean1);
-        System.out.println(answer1);
+        System.out.println("Mean test 1: " + answer1);
 
+        double[] testMean2 = {89, 23, 90, 5, 100, 6, 1, 10, 11, 0, 12};
+        Object answer2 = Mean(testMean2);
+        System.out.println("Mean test 2: " + answer2);
+
+        //Median tests: 
         double[] testMedian1 = {1, 2, 3, 4, 5, 3};
-        Double answer2 = Median(testMedian1);
-        System.out.println(answer2);
+        Double answer3 = Median(testMedian1);
+        System.out.println("Median test 1: " + answer3);
 
-        double[] testMode1 = {2, 3, 4, 5, 6, 5, 5, 7, 6, 6};
-        List<Double> answer3 = Mode(testMode1);
-        System.out.println(answer3);
+        double[] testMedian2 = {10, 7, 5, 3, 1, 9};
+        Double answer4 = Median(testMedian2);
+        System.out.println("Median test 2: " + answer4);
 
-        double[] testSD1 = {6, 8, 42, 90, 79, 56, 500};
-        Double answer4 = StandDev(testSD1);
-        System.out.println(answer4);
+        //Mode tests: 
+        double[] testMode1 = {1, 3, 10, 5, 6, 6, 40, 5, 356, 2, 6};
+        List<Double> answer5 = Mode(testMode1);
+        System.out.println("Mode test 1: " + answer5);
+
+        double[] testMode2 = {2, 2, 2, 2, 2, 6, 6, 6, 6, 6};
+        List<Double> answer6 = Mode(testMode2);
+        System.out.println("Mode test 2: " + answer6);
+
     }
 }
