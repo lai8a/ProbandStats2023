@@ -131,18 +131,53 @@ public class Test extends SetOperations {
 
 //Chapter 3: Binomial --------------------------------------------------
 
+    Double answer28 = Binomial(10, 3, .3);
+    System.out.println("Binomial test 1: " + answer28);
+
+    Double answer29 = Binomial(20, 14, .6);
+    System.out.println("Binomial test 2: " + answer29);
+
 //Chapter 3: Geometric --------------------------------------------------
+
+    Double answer30 = Geometric(3, .3);
+    System.out.println("Geometric test 1: " + answer30);
+
+    Double answer31 = Geometric(14, .6);
+    System.out.println("Geometric test 2: " + answer31);
 
 //Chapter 3: HyperGeometric --------------------------------------------------
 
+    Double answer32 = Hypergeometric(2, 5, 20, 8);
+    System.out.println("Hypergeometric test 1: " + answer32);
+
+    Double answer33 = Hypergeometric(1, 6, 25, 10);
+    System.out.println("Hypergeometric test 2: " + answer33);
+
 //Chapter 3: Negative Binomial --------------------------------------------------
+
+    Double answer34 = NegBinomial(7, 3, .4);
+    System.out.println("NegBinomial test 1: " + answer34);
+
+    Double answer35 = NegBinomial(9, 1, .45);
+    System.out.println("NegBinomial test 2: " + answer35);
 
 //Chapter 3: Poisson --------------------------------------------------
 
+    Double answer36 = Poisson(4.5, 3);
+    System.out.println("Poisson test 1: " + answer36);
+
+    Double answer37 = Poisson(6, 2);
+    System.out.println("Poisson test 2: " + answer37);
+
 //Chapter 3: Chevychev --------------------------------------------------
 
-//Chapter 3: Negative Binomial --------------------------------------------------
+    Double answer38 = Chevychev(2);
+    System.out.println("Chevychev test 1: " + answer38);
 
+    Double answer39 = Chevychev(6);
+    System.out.println("Chevychev test 2: " + answer39);
+
+// Thanks for testing! :)
 }   
 }
 
