@@ -5,7 +5,8 @@ Laiba Khan, Probability and Applied Statistics CSCI 3327 Fall 2023
 All the submissions listed below are included in this repository.
 
 Programming Projects:
-   1. StatsLibrary(?) Mean, Median, Mode
+-SetOperations:
+   1. Mean, Median, Mode
    2. SetOperations
    3. Monte Carlo Door / Deal or No Deal 
    4. Birthday Checker
@@ -16,7 +17,13 @@ Programming Projects:
    9. Binomial Distributions
    10. Geometric and Hyper Geometric Distribution Solver
    11. Poisson Distributionon
-   12. Chiabinsku
+   12. Chebychev
+
+-Mini Programming Projects   
+   13. Monte's 3 Doors / Deal or No Deal Program
+   14. Birthday Checker
+   15. CarFactory 
+   16. Hands
 
 Other Files:
    * Excel: Histogram
