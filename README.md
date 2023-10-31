@@ -18,8 +18,7 @@ Programming Projects:
    10. Geometric and Hyper Geometric Distribution Solver
    11. Poisson Distributionon
    12. Chebychev
-
--Mini Programming Projects   
+-Mini Programming Projects: 
    13. Monte's 3 Doors / Deal or No Deal Program
    14. Birthday Checker
    15. CarFactory 
