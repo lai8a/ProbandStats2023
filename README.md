@@ -28,3 +28,6 @@ Other Files:
    * Excel: Histogram
    * 1-page essay on Git, GitWorkflow, Commits, Pulls, Merges, Merge Conflicts, Repositories
    * A screenshot of the changelog after cloning someone's repository, and committing code to their repo. BROWNIE POINTS: Create and resolve a merge conflict.
+
+
+//Please let me know if I can do anything to make this better. There were some parts that I had trouble finishing due to time constraints, but I am very open to feedback and want to better my coding skills as I know they are not as good as they could be.
