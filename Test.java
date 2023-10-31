@@ -1,13 +1,13 @@
 //--------------------------------------------------------------------
 // Laiba Khan, CSCI3327 Probability and Applied Statistics
 // Chapter 1:
-// StatsLibrary: Mean Median Mode and Standard Deviation Functions
+// StatsLibrary: Test Cases for SetOperations 
 //--------------------------------------------------------------------
 
 import java.math.BigInteger;
 import java.util.*;
 
-public class Test extends SetOperations{
+public class Test extends SetOperations {
     public static void main(String[] tests){
 //Chapter 1: Mean Median Mode ----------------------------------------
     //Mean tests: 
@@ -61,7 +61,7 @@ public class Test extends SetOperations{
     System.out.println("Union test 1: " + answer11);
 
     Integer[] list3 = {2, 3, 4, 5, 3, 7};
-    Integer[] list4 = {0, 5, 7, 6, 5, 10, 2, 2, 2};
+    Integer[] list4 = {0, 5, 7, 6, 5, 10, 9, 1, 2};
     List<Integer> answer12 = Union(list3, list4);
     System.out.println("Union test 2: " + answer12);
 
@@ -90,14 +90,59 @@ public class Test extends SetOperations{
     BigInteger answer19 = Factorial(0);
     System.out.println("Factorial test 3" + answer19);
 
-//Chapter 1: Permutations Combinations -----------------------------------------
+//Chapter 2: Permutations Combinations --------------------------------------
 
     BigInteger answer20 = Permutations(10, 5);
-    System.out.println("Permutation is: " + answer20);
+    System.out.println("Permutation test 1: " + answer20);
 
     BigInteger answer21 = Permutations(5, 10);
-    System.out.println("Permutation is: " + answer21);
+    System.out.println("Permutation test 2: " + answer21);
 
-    }   
+//Chapter 2: Conditional and Bayes -----------------------------------------
+    //Conditional
+    Integer A[] = {11, 12, 13, 14, 15, 16};
+    Integer B[] = {11, 13, 15, 21, 25};
+    Integer s[] = {11, 12, 13, 14, 15, 16, 21, 22, 23, 24, 25, 26};
+
+    Integer A2[] = {1, 3, 4, 5, 6, 7};
+    Integer B2[] = {1, 4, 5, 6, 34, 97, 90};
+    Integer s2[] = {1, 2, 3, 4, 5, 6, 7, 34, 97, 49, 90};
+
+    Double answer22 = Conditional(A, B, s);
+    System.out.println("Conditional test 1: " + answer22);
+
+    Double answer23 = Conditional(A2, B2, s2);
+    System.out.println("Conditional test 1: " + answer23);
+
+    //Bayes
+    Double answer24 = Bayes(A, B, s);
+    System.out.println("Bayes test 1: " + answer24);
+
+    Double answer25 = Bayes(A2, B2, s2);
+    System.out.println("Bayes test 2: " + answer25);
+
+//Chapter 2: Independence --------------------------------------------------
+
+    Boolean answer26 = Independence(A, B, s);
+    System.out.println("Independence test 1: " + answer26);
+
+    Boolean answer27 = Independence(A2, B2, s2);
+    System.out.println("Independence test 2: " + answer27);
+
+//Chapter 3: Binomial --------------------------------------------------
+
+//Chapter 3: Geometric --------------------------------------------------
+
+//Chapter 3: HyperGeometric --------------------------------------------------
+
+//Chapter 3: Negative Binomial --------------------------------------------------
+
+//Chapter 3: Poisson --------------------------------------------------
+
+//Chapter 3: Chevychev --------------------------------------------------
+
+//Chapter 3: Negative Binomial --------------------------------------------------
+
+}   
 }
 

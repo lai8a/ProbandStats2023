@@ -1,22 +1,9 @@
-
-/**
-* Methods for Set Operations and formulas covered in class. 
-* 
-* 
-* <p>
-* These methods can be called within the terminal, using Method (parameters)
-* 
-* 
-* 
-* Mean Median Mode:
-* @param  listofnums  an absolute URL giving the base location of the image
-* @return 
-* 
-*/
-//--------------------------------------------------------------------
-// Laiba Khan, CSCI3327 Probability and Applied Statistics
-//--------------------------------------------------------------------
-
+/**--------------------------------------------------------------------
+ * @author Laiba Khan, CSCI3327 Probability and Applied Statistics
+ * 10/30/2023
+ * StatsLibrary: SetOperations
+ --------------------------------------------------------------------
+ */
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -148,18 +135,19 @@ public class SetOperations {
     
     //Intersection of two lists is the elements both lists have in common.
     //Take the parameters of two lists.
-    public static List<Integer> Intersect(Integer[] list1, Integer[] list2){
-        List<Integer> intersect = new ArrayList<>();
-        
-        //Iterate throught the values in list2 for each value in list1 to check if they equal.
-        //If they are equal, add the value to a new list.
-        for(int i : list1){
-            for (int j : list2){
-                //Check if values are equal. Add to list if true.
-                if (i == j){
-                    intersect.add(i);
+    //Originally, this was used only for Integer lists, but I had it adjusted
+    //for generic arrays. This way, you can use it in Person for finding the intersection of
+    //birthdays.
+    public static <T extends Comparable<T>> List<T> Intersect(T[] list1, T[] list2) {
+        List<T> intersect = new ArrayList<>();
+
+        for (T item1 : list1) {
+            for (T item2 : list2) {
+                if (item1.compareTo(item2) == 0) {
+                    intersect.add(item1);
+                    break;
                 }
-            }            
+            }
         }
         return intersect;
     }
@@ -217,9 +205,8 @@ public class SetOperations {
             return result;            
         }
         else {
-            throw new RuntimeException("\nERROR: you selected more objects than you have");
+            return null;
         }
- 
     }
 
     public static BigInteger Combinations(int n, int r){
@@ -244,8 +231,9 @@ public class SetOperations {
     }
 
     public static Double Conditional(Integer[] A, Integer[] B, Integer[] s){
-        //Solve for P(A|B) = P(A ∩ B)/P(B).
-        //Probability of A given B has occured.
+        //Solve for P(A|B) = P(A ∩ B)/P(B) provided P(B) > 0.
+        //This is of two events A and B of sample space S
+        //The equation describes the probability of A given B has occured.
         //'∩' is symbol for intersection.
         
         //Keep in mind P(A ⋂ B) = n(A ⋂ B)/n(S), where n(A ⋂ B) is number of elements in set A and B
@@ -253,25 +241,218 @@ public class SetOperations {
         
         List<Integer> AinterB = Intersect(A, B);
 
-        Integer numAinterB = AinterB.size();
-
+        //A intersect B length.
+        int AinterBlength = AinterB.size();
         //n(S)
-        Integer slength = s.length;
-        //Length of A and B.
-        Integer Alength = A.length;
-        Integer Blength =  B.length;
+        int slength = s.length;
+        //Length of B.
+        int Blength =  B.length;
 
+        //Dont need length of A, but here it is:
+        //Integer Alength = A.length;
+        //double PA = (double) Alength / slength;
+        double PB = (double) Blength / slength;
+
+        //Make sure P(B) > 0.
+        if (Blength > 0){
+
+            //P(A ⋂ B) = n(A ⋂ B)/n(S)
+            double probAinterB = (double) AinterBlength / slength;
+
+            double result = (probAinterB / PB) * 100;
+
+            //Multiply by 100 to get probability.
+            return result;            
+        }
+        else{
+            return null;
+        }
+    }
+
+    public static Double Bayes(Integer[] A, Integer[] B, Integer[] s){
+        //Solve for P(B|A) = P(A|B)P(B)/P(A) provided P(B) > 0 and P(A) > 0.
+        //Use conditional to get P(A|B)
+
+            Double ABcond = Conditional(A, B, s);   
+            
+            //Length of each set and subset.
+            int slength = s.length;
+            Integer Alength = A.length;        
+            int Blength =  B.length;
+
+            //Probability of A and B
+            double PA = (double) Alength / slength;
+            double PB = (double) Blength / slength;
+
+        if (PA > 0 && PB > 0){
+            double result = (ABcond * PB) / PA;
+            return result;            
+        }
+        else{
+            return null;
+        }
+
+    }
+
+    public static Boolean Independence(Integer[] A, Integer[] B, Integer[] s){
+        //Two events are independent if any of these:
+        //P(A|B) = P(A),
+        //P(B|A) = P(B),
+        //P(A ∩ B) = P(A)P(B)
+        List<Integer> AinterB = Intersect(A, B);
+
+
+        //Length of each set and subset.
+        int AinterBlength = AinterB.size();
+        int slength = s.length;
+        int Alength = A.length;  
+        int Blength =  B.length;
 
         double PA = (double) Alength / slength;
         double PB = (double) Blength / slength;
 
         //P(A ⋂ B) = n(A ⋂ B)/n(S)
-        Integer probAinterB = numAinterB / numAinterB;
+        double probAinterB = (double) AinterBlength / slength;
 
-        double result = probAinterB / PB;
+        //Find P(A|B), P(B|A)
+        Double ABcond = Conditional(A, B, s);   
+        Double BAbayes = Bayes(A, B, s);
+        
+        if (ABcond == PA){
+            return true;
+        }
+        else if (BAbayes == PB){
+            return true;
+        }
+        else if (probAinterB == (PA * PB)){
+            return true;
+        }
+        else{
+            return false;
+        }
 
-        return result;
- 
+
+    
     }
+
+    public static Double Binomial(int n, int y, double p){
+        // 1. The experiment consists of a fixed number, n, of identical trials.
+        // 2. Each trial results in one of two outcomes: success, S, or failure, F.
+        // 3. The probability of success on a single trial is equal to some value p and
+        // remains the same from trial to trial. The probability of a failure is equal to
+        // q = (1 − p).
+        // 4. The trials are independent.
+        // 5. The random variable of interest is Y, the number of successes observed
+        // during the n trials.
+
+        //p(y)=(n¦y) * p^y * q^(n-y) , y = 0, 1, 2, …, n and 0 ≤ p ≤ 1
+
+
+        //q is chance of failure: 1-p.
+        double q = 1 - p;
+
+        //Find (n y), which is n!/y!(n-y)!
+        //Check if nonnegative and if 0 ≤ p ≤ 1 first.
+        if (n >= y && n >= 0 && y >= 0 && p >= 0 && p <= 1){
+            BigInteger nFact = Factorial(n);
+            BigInteger yFact = Factorial(y);
+            BigInteger nyFact = Factorial(n-y);
+
+            BigInteger NchooseY = nFact.divide(yFact.multiply(nyFact));
+
+            double PtoY = Math.pow(p, y);
+            double QtoNminusY = Math.pow(q, n-y);
+
+            double result = NchooseY.doubleValue() * PtoY * QtoNminusY;
+            //Convert to percentage.
+            return result * 100;
+        }
+        else{
+            return null;
+        }
+
+
+    }
+
+    public static Double Geometric(int y, double p){
+        //p(y) = q^y-1 * p , y = 1, 2, 3, ..., 0 ≤ p ≤ 1
+
+        double q = 1 - p;
+
+        //0 ≤ p ≤ 1
+        if (p >= 0 && p <= 1 && y > 0){
+            double result = Math.pow(q, y-1) * p;
+            return result * 100;            
+        }
+        else {
+            return null;
+        }
+    }
+
+    public static Double Hypergeometric(int y, int r, int N, int nn){
+        //p(y) = (rCy * (N-r)C(n-Y)) / (NCn)
+        if (y <= r && nn-y <= N-r && y > 0){
+            BigInteger perm1 = Permutations(r, y);
+            BigInteger perm2 = Permutations(N-r, nn-y);
+            BigInteger perm3 = Permutations(N, nn);
+
+            BigInteger numer = perm1.multiply(perm2);
+            double result = numer.divide(perm3).doubleValue() * 100;
+
+            return result;            
+        }
+        else{
+            return null;
+        }
+    }
+
+    public static Double NegBinomial(int y, int r, double p){
+        //p(y) = (y-1Pr-1)*p^r*q^(y-r)
+        double q = 1 - p;
+        
+        if (p >= 0 && p <= 1){
+
+            BigInteger perm = Permutations(y-1, r-1);
+            double ppower = Math.pow(p, r);
+            double qpower = Math.pow(q, y-r);   
+            
+            double result = perm.doubleValue() * ppower * qpower;
+            return result;
+        }
+        else {
+            return null;
+        }
+    }
+
+    public static Double Poisson(double mean, int y){
+        if (mean > 0){
+            double numer = Math.pow(mean, y);
+            BigInteger yfact = Factorial(y);
+            double epowermean = Math.pow(Math.E, -mean);
+
+            double temp = numer * epowermean;
+            double result = temp / yfact.doubleValue();
+
+            return result;
+        }
+        else{
+            return null;
+        }
+    }
+
+    public static Double Chevychev(int k){
+        //P(|Y-µ| < kσ) ≥ 1 - 1/k^2  OR  P(|Y-µ| ≥ kσ) ≤ 1/k^2
+        //Plug in k to get how much data lies within the standard deviations k.
+        if (k > 1){
+            double result = 1 - (1 / (k * k));
+            return result;
+        }
+        else{
+            return null;
+        }
+    }
+
+
 }
+
 

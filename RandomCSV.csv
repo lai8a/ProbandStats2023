@@ -1,0 +1,1001 @@
+﻿CarType,Year,Color,Miles
+Sedan ,1999,Red,78616
+SUV,2000,Red,121508
+Truck,2001,Blue,99348
+Convertible,2005,Black,197012
+Sedan ,2019,Black,212730
+Truck,2010,White,192196
+SUV,2003,Red,227255
+Sedan ,2005,Red,89887
+SUV,2008,Red,57621
+Truck,2020,Black,74812
+Convertible,2022,White,48967
+SUV,2023,Black,237921
+Convertible,2001,Silver,161182
+SUV,2001,Yellow,75819
+Truck,1990,Yellow,206495
+Convertible,1985,Red,232231
+Sedan ,1980,Silver,182401
+Sedan ,1983,Red,23812
+SUV,2000,Black,101096
+Convertible,2012,White,54909
+Sedan ,1998,Black,225373
+Sedan ,1980,Silver,60625
+Sedan ,1983,Red,160543
+Sedan ,1981,Red,132073
+SUV,1988,Red,151637
+Truck,2008,Blue,118484
+Convertible,1991,Black,234779
+Sedan ,2021,Black,118807
+Truck,2006,White,227681
+SUV,2003,Red,209447
+Sedan ,1979,Red,78395
+Sedan ,2021,Red,249983
+SUV,2022,Red,27567
+Truck,2016,Blue,127409
+Convertible,1984,Black,131927
+Sedan ,2023,Black,147007
+Truck,2013,White,45717
+SUV,2007,Red,172412
+Sedan ,1976,Red,108961
+SUV,1980,Red,5405
+Truck,1981,Blue,97291
+Convertible,1982,Black,231797
+Sedan ,1976,Black,248175
+Truck,1988,White,154041
+SUV,2005,Red,227109
+Sedan ,2015,Red,195696
+SUV,1986,Red,249236
+Truck,2021,Black,196115
+Convertible,2007,White,246111
+SUV,1979,Black,224951
+Convertible,1999,Silver,74180
+SUV,1989,Yellow,340
+Truck,1991,Yellow,86068
+Convertible,1991,Red,167492
+Sedan ,2008,Silver,152514
+Sedan ,2006,Red,79881
+SUV,2003,Black,97169
+Convertible,1975,White,97732
+Sedan ,2011,Black,225629
+Sedan ,2021,Silver,18158
+Sedan ,2016,Red,171952
+Sedan ,2001,Red,240894
+SUV,2007,Red,171112
+Truck,2013,Blue,228870
+Convertible,1985,Black,201893
+Sedan ,1990,Black,243292
+Truck,2003,White,161472
+SUV,1992,Red,135374
+Sedan ,1980,Red,233214
+Sedan ,2019,Red,149762
+SUV,2000,Red,210870
+Truck,2013,Blue,73618
+Convertible,1988,Black,36563
+Sedan ,1993,Black,181064
+Truck,1988,White,139512
+SUV,2006,Red,86553
+Sedan ,2002,Red,64481
+SUV,1979,Red,219857
+Truck,2018,Blue,142651
+Convertible,2015,Black,203542
+Sedan ,1985,Black,189550
+Truck,1989,White,240290
+SUV,1994,Red,19454
+Sedan ,1979,Red,25617
+SUV,1983,Red,105949
+Truck,2005,Black,127754
+Convertible,2016,White,93193
+SUV,1979,Black,239607
+Convertible,1994,Silver,155096
+SUV,1983,Yellow,229991
+Truck,1977,Yellow,69403
+Convertible,2001,Red,63162
+Sedan ,1988,Silver,83592
+Sedan ,2022,Red,12245
+SUV,2015,Black,211993
+Convertible,2005,White,150044
+Sedan ,1989,Black,186502
+Sedan ,1992,Silver,232971
+Sedan ,1975,Red,20163
+Sedan ,1985,Red,68551
+SUV,2007,Red,227070
+Truck,2010,Blue,238217
+Convertible,2009,Black,29387
+Sedan ,2008,Black,63016
+Truck,1982,White,217035
+SUV,1992,Red,50386
+Sedan ,2023,Red,2619
+Sedan ,2008,Red,94996
+SUV,2002,Red,51011
+Truck,2003,Blue,215441
+Convertible,1991,Black,15213
+Sedan ,2023,Black,222074
+Truck,1982,White,96800
+SUV,2019,Red,140688
+Sedan ,2008,Red,133029
+SUV,1984,Red,53789
+Truck,2019,Blue,180899
+Convertible,1985,Black,66753
+Sedan ,2001,Black,154621
+Truck,2021,White,27598
+SUV,2010,Red,5518
+Sedan ,2011,Red,7033
+SUV,2022,Red,190892
+Truck,2019,Black,72251
+Convertible,1992,White,20200
+SUV,2021,Black,52985
+Convertible,2012,Silver,47156
+SUV,1996,Yellow,79637
+Truck,2018,Yellow,100668
+Convertible,1981,Red,42352
+Sedan ,2014,Silver,18148
+Sedan ,1975,Red,144076
+SUV,2000,Black,149680
+Convertible,1990,White,66525
+Sedan ,1999,Black,121380
+Sedan ,2001,Silver,114589
+Sedan ,2019,Red,134485
+Sedan ,2010,Red,195339
+SUV,2011,Red,172037
+Truck,2010,Blue,232003
+Convertible,1980,Black,92391
+Sedan ,1980,Black,188844
+Truck,1977,White,62156
+SUV,1975,Red,235147
+Sedan ,2004,Red,223604
+Sedan ,2017,Red,187173
+SUV,1998,Red,95794
+Truck,1976,Blue,220402
+Convertible,2016,Black,73606
+Sedan ,2022,Black,91965
+Truck,2020,White,175776
+SUV,1976,Red,41010
+Sedan ,2022,Red,42479
+SUV,1992,Red,84748
+Truck,1990,Blue,5790
+Convertible,2023,Black,157280
+Sedan ,1983,Black,248282
+Truck,1985,White,214028
+SUV,1989,Red,211653
+Sedan ,1979,Red,114304
+SUV,1989,Red,131986
+Truck,2004,Black,44458
+Convertible,1982,White,35687
+SUV,1994,Black,214488
+Convertible,1992,Silver,245722
+SUV,2001,Yellow,25871
+Truck,1999,Yellow,236816
+Convertible,2004,Red,117306
+Sedan ,1988,Silver,145446
+Sedan ,1979,Red,84758
+SUV,1985,Black,150626
+Convertible,2014,White,186246
+Sedan ,2000,Black,1799
+Sedan ,2003,Silver,49373
+Sedan ,2001,Red,144881
+Sedan ,1983,Red,105438
+SUV,2000,Red,125544
+Truck,2006,Blue,170999
+Convertible,2001,Black,149107
+Sedan ,1998,Black,163313
+Truck,2008,White,35930
+SUV,2015,Red,54644
+Sedan ,1991,Red,185645
+Sedan ,1991,Red,145319
+SUV,1993,Red,191489
+Truck,2010,Blue,117245
+Convertible,1979,Black,169340
+Sedan ,2003,Black,91896
+Truck,1975,White,221533
+SUV,2000,Red,43181
+Sedan ,2002,Red,47102
+SUV,1989,Red,206979
+Truck,2002,Blue,6984
+Convertible,1988,Black,107913
+Sedan ,1993,Black,29665
+Truck,2013,White,75583
+SUV,1998,Red,856
+Sedan ,2016,Red,18496
+SUV,1976,Red,91056
+Truck,2016,Black,70717
+Convertible,2018,White,81266
+SUV,1979,Black,40753
+Convertible,2008,Silver,54936
+SUV,1992,Yellow,57601
+Truck,1998,Yellow,91420
+Convertible,2006,Red,234200
+Sedan ,2016,Silver,72771
+Sedan ,2018,Red,51179
+SUV,1987,Black,9300
+Convertible,1977,White,213017
+Sedan ,2000,Black,203127
+Sedan ,1990,Silver,220173
+Sedan ,2020,Red,127278
+Sedan ,2016,Red,185560
+SUV,2022,Red,134146
+Truck,2016,Blue,206327
+Convertible,2014,Black,168872
+Sedan ,2005,Black,27734
+Truck,2011,White,128884
+SUV,2005,Red,79126
+Sedan ,1988,Red,107078
+Sedan ,2011,Red,232429
+SUV,2018,Red,126960
+Truck,1989,Blue,175651
+Convertible,1996,Black,153796
+Sedan ,2014,Black,62010
+Truck,1978,White,82625
+SUV,2021,Red,22970
+Sedan ,2013,Red,247602
+SUV,1976,Red,233851
+Truck,2010,Blue,223911
+Convertible,1981,Black,71855
+Sedan ,2004,Black,186238
+Truck,1997,White,66080
+SUV,2001,Red,143678
+Sedan ,2005,Red,155372
+SUV,1996,Red,107679
+Truck,2020,Black,119562
+Convertible,2000,White,27496
+SUV,2017,Black,92788
+Convertible,2014,Silver,71698
+SUV,1975,Yellow,160405
+Truck,1982,Yellow,32272
+Convertible,2013,Red,204140
+Sedan ,2009,Silver,85959
+Sedan ,1978,Red,147114
+SUV,2018,Black,198997
+Convertible,1997,White,125770
+Sedan ,2015,Black,238074
+Sedan ,1980,Silver,107990
+Sedan ,1981,Red,72400
+Sedan ,2009,Red,9628
+SUV,2020,Red,80523
+Truck,2003,Blue,177230
+Convertible,2012,Black,203027
+Sedan ,2009,Black,185893
+Truck,2004,White,162473
+SUV,1980,Red,197376
+Sedan ,2006,Red,233057
+Sedan ,1994,Red,9240
+SUV,2022,Red,242524
+Truck,1998,Blue,60004
+Convertible,1977,Black,54655
+Sedan ,2015,Black,26490
+Truck,2002,White,149670
+SUV,2006,Red,154714
+Sedan ,1988,Red,46554
+SUV,1979,Red,204679
+Truck,2005,Blue,138950
+Convertible,2012,Black,134847
+Sedan ,1978,Black,115989
+Truck,1980,White,174743
+SUV,1989,Red,156197
+Sedan ,2019,Red,135070
+SUV,1984,Red,53638
+Truck,1986,Black,175250
+Convertible,2011,White,141925
+SUV,1989,Black,838
+Convertible,1989,Silver,169550
+SUV,1980,Yellow,51426
+Truck,2020,Yellow,137901
+Convertible,1980,Red,198029
+Sedan ,2011,Silver,211751
+Sedan ,2006,Red,98640
+SUV,1989,Black,194941
+Convertible,2004,White,187105
+Sedan ,1978,Black,13288
+Sedan ,2023,Silver,46595
+Sedan ,1993,Red,195420
+Sedan ,1986,Red,79718
+SUV,2004,Red,200476
+Truck,2019,Blue,142203
+Convertible,1994,Black,170513
+Sedan ,1999,Black,201590
+Truck,1986,White,120386
+SUV,1980,Red,90558
+Sedan ,1984,Red,227300
+Sedan ,1988,Red,46382
+SUV,1988,Red,151982
+Truck,2023,Blue,84584
+Convertible,1980,Black,11550
+Sedan ,2017,Black,207783
+Truck,2002,White,125903
+SUV,2009,Red,173554
+Sedan ,1975,Red,230664
+SUV,2019,Red,95138
+Truck,1988,Blue,196874
+Convertible,2001,Black,31865
+Sedan ,2019,Black,237176
+Truck,2019,White,36509
+SUV,2000,Red,45047
+Sedan ,1980,Red,153636
+SUV,1999,Red,29388
+Truck,2001,Black,204358
+Convertible,2009,White,134740
+SUV,1984,Black,54900
+Convertible,2023,Silver,205243
+SUV,1977,Yellow,247790
+Truck,1976,Yellow,71537
+Convertible,1978,Red,45760
+Sedan ,1990,Silver,172738
+Sedan ,1992,Red,209041
+SUV,2003,Black,48380
+Convertible,1995,White,18240
+Sedan ,2008,Black,26968
+Sedan ,2004,Silver,70330
+Sedan ,1994,Red,139571
+Sedan ,1986,Red,151953
+SUV,2001,Red,177427
+Truck,2003,Blue,139822
+Convertible,2018,Black,224429
+Sedan ,1979,Black,55841
+Truck,1977,White,80432
+SUV,1978,Red,13207
+Sedan ,2011,Red,233157
+Sedan ,1978,Red,223990
+SUV,2008,Red,105035
+Truck,2022,Blue,57323
+Convertible,1996,Black,220116
+Sedan ,1994,Black,36240
+Truck,1978,White,222740
+SUV,2008,Red,104082
+Sedan ,2020,Red,37864
+SUV,2020,Red,195250
+Truck,1993,Blue,247505
+Convertible,2012,Black,44311
+Sedan ,1999,Black,2791
+Truck,1979,White,71949
+SUV,1983,Red,117188
+Sedan ,2018,Red,16700
+SUV,1984,Red,249912
+Truck,1996,Black,79452
+Convertible,2008,White,219727
+SUV,2003,Black,182795
+Convertible,1993,Silver,248644
+SUV,1978,Yellow,194279
+Truck,2007,Yellow,65188
+Convertible,1982,Red,167341
+Sedan ,1998,Silver,247422
+Sedan ,2000,Red,194268
+SUV,2009,Black,143464
+Convertible,1987,White,242297
+Sedan ,2021,Black,23697
+Sedan ,2019,Silver,79868
+Sedan ,1997,Red,216871
+Sedan ,1990,Red,211732
+SUV,1990,Red,249621
+Truck,1999,Blue,70886
+Convertible,2014,Black,158021
+Sedan ,2018,Black,117867
+Truck,1988,White,185467
+SUV,1997,Red,29677
+Sedan ,1999,Red,13909
+Sedan ,2022,Red,50587
+SUV,2012,Red,187264
+Truck,2010,Blue,823
+Convertible,2017,Black,12136
+Sedan ,1994,Black,133859
+Truck,2010,White,156520
+SUV,1985,Red,105916
+Sedan ,1980,Red,228368
+SUV,1996,Red,73160
+Truck,1984,Blue,94444
+Convertible,2008,Black,17373
+Sedan ,1983,Black,53290
+Truck,2007,White,51973
+SUV,1990,Red,190899
+Sedan ,2005,Red,149089
+SUV,1993,Red,168838
+Truck,2017,Black,57895
+Convertible,2002,White,128770
+SUV,2016,Black,37765
+Convertible,1985,Silver,115873
+SUV,1984,Yellow,91311
+Truck,2000,Yellow,184380
+Convertible,1976,Red,169259
+Sedan ,1993,Silver,34314
+Sedan ,1981,Red,106811
+SUV,2023,Black,34983
+Convertible,2003,White,235055
+Sedan ,2005,Black,181051
+Sedan ,1989,Silver,80894
+Sedan ,1989,Red,129713
+Sedan ,1977,Red,58079
+SUV,1991,Red,185162
+Truck,1980,Blue,182528
+Convertible,2014,Black,125722
+Sedan ,1982,Black,173513
+Truck,1997,White,201212
+SUV,1986,Red,226295
+Sedan ,1981,Red,154778
+Sedan ,1994,Red,3394
+SUV,1986,Red,60016
+Truck,1988,Blue,96629
+Convertible,1976,Black,141855
+Sedan ,1996,Black,231225
+Truck,1977,White,41458
+SUV,2018,Red,163384
+Sedan ,1980,Red,108827
+SUV,1978,Red,208068
+Truck,2010,Blue,122329
+Convertible,1977,Black,242604
+Sedan ,2002,Black,33268
+Truck,1995,White,131980
+SUV,1997,Red,232826
+Sedan ,2015,Red,41485
+SUV,1985,Red,170657
+Truck,1982,Black,159798
+Convertible,1975,White,244858
+SUV,1978,Black,245225
+Convertible,2011,Silver,220252
+SUV,1998,Yellow,129365
+Truck,1986,Yellow,208554
+Convertible,1984,Red,106233
+Sedan ,2004,Silver,209738
+Sedan ,2023,Red,86362
+SUV,1983,Black,114450
+Convertible,1981,White,33744
+Sedan ,1976,Black,149022
+Sedan ,2007,Silver,99531
+Sedan ,2019,Red,94416
+Sedan ,1978,Red,60890
+SUV,2000,Red,158740
+Truck,2003,Blue,210183
+Convertible,2002,Black,21607
+Sedan ,2015,Black,93836
+Truck,1983,White,5801
+SUV,2002,Red,224444
+Sedan ,2009,Red,163406
+Sedan ,1991,Red,38540
+SUV,1981,Red,114388
+Truck,1977,Blue,245698
+Convertible,1997,Black,41725
+Sedan ,2017,Black,179720
+Truck,1994,White,210075
+SUV,1984,Red,78659
+Sedan ,1997,Red,36539
+SUV,2003,Red,183001
+Truck,2002,Blue,165334
+Convertible,2011,Black,9348
+Sedan ,1981,Black,132881
+Truck,1996,White,61206
+SUV,2005,Red,239343
+Sedan ,2019,Red,221887
+SUV,2014,Red,42571
+Truck,2008,Black,80269
+Convertible,2015,White,176585
+SUV,2023,Black,147919
+Convertible,2005,Silver,19481
+SUV,2001,Yellow,213605
+Truck,1991,Yellow,102934
+Convertible,2009,Red,199590
+Sedan ,2017,Silver,228681
+Sedan ,1977,Red,171922
+SUV,2019,Black,238247
+Convertible,1985,White,111971
+Sedan ,2016,Black,241537
+Sedan ,2004,Silver,106476
+Sedan ,1978,Red,150196
+Sedan ,2003,Red,156380
+SUV,2016,Red,33138
+Truck,1983,Blue,139898
+Convertible,1978,Black,19463
+Sedan ,1981,Black,24795
+Truck,1983,White,119152
+SUV,1990,Red,19612
+Sedan ,2020,Red,98565
+Sedan ,1982,Red,75017
+SUV,2012,Red,103631
+Truck,2011,Blue,217411
+Convertible,2011,Black,63695
+Sedan ,2008,Black,112255
+Truck,1978,White,193176
+SUV,1990,Red,128453
+Sedan ,1980,Red,123408
+SUV,1988,Red,220105
+Truck,1994,Blue,126671
+Convertible,1988,Black,243046
+Sedan ,2001,Black,4920
+Truck,2019,White,203892
+SUV,2014,Red,231356
+Sedan ,2020,Red,9328
+SUV,2009,Red,40096
+Truck,2013,Black,169067
+Convertible,1984,White,200906
+SUV,2005,Black,134931
+Convertible,1992,Silver,248434
+SUV,2017,Yellow,131298
+Truck,1988,Yellow,166057
+Convertible,1989,Red,157839
+Sedan ,2016,Silver,122868
+Sedan ,1999,Red,120688
+SUV,1991,Black,191989
+Convertible,2013,White,50386
+Sedan ,1980,Black,187715
+Sedan ,1979,Silver,17434
+Sedan ,2021,Red,34667
+Sedan ,2006,Red,147898
+SUV,2011,Red,79142
+Truck,2023,Blue,96578
+Convertible,2022,Black,244907
+Sedan ,2017,Black,135266
+Truck,2019,White,214000
+SUV,2006,Red,131834
+Sedan ,1989,Red,20338
+Sedan ,1975,Red,173359
+SUV,1996,Red,190098
+Truck,1993,Blue,197839
+Convertible,1985,Black,229184
+Sedan ,1979,Black,21042
+Truck,2010,White,160619
+SUV,2002,Red,103018
+Sedan ,2016,Red,110881
+SUV,1983,Red,88309
+Truck,2006,Blue,34591
+Convertible,2021,Black,173116
+Sedan ,1997,Black,25194
+Truck,2004,White,66288
+SUV,1989,Red,61512
+Sedan ,1980,Red,61578
+SUV,2008,Red,224153
+Truck,2016,Black,116461
+Convertible,1983,White,67772
+SUV,1994,Black,186165
+Convertible,2019,Silver,246476
+SUV,1977,Yellow,226388
+Truck,2002,Yellow,100063
+Convertible,1975,Red,32429
+Sedan ,2023,Silver,145290
+Sedan ,1998,Red,99731
+SUV,2001,Black,29724
+Convertible,1987,White,133182
+Sedan ,1979,Black,53434
+Sedan ,1998,Silver,146657
+Sedan ,1981,Red,242415
+Sedan ,1994,Red,117762
+SUV,2007,Red,209681
+Truck,1984,Blue,185775
+Convertible,1979,Black,57929
+Sedan ,1996,Black,229249
+Truck,2011,White,162863
+SUV,2000,Red,145611
+Sedan ,1998,Red,30957
+Sedan ,1983,Red,105823
+SUV,2001,Red,247289
+Truck,2020,Blue,137016
+Convertible,1988,Black,203396
+Sedan ,1993,Black,148982
+Truck,1984,White,229617
+SUV,2003,Red,48229
+Sedan ,2003,Red,196918
+SUV,1982,Red,237433
+Truck,2011,Blue,178554
+Convertible,2015,Black,81052
+Sedan ,2019,Black,133683
+Truck,1989,White,103637
+SUV,1982,Red,235360
+Sedan ,2010,Red,68145
+SUV,2022,Red,8924
+Truck,2019,Black,20837
+Convertible,1995,White,219797
+SUV,2021,Black,200128
+Convertible,2009,Silver,10167
+SUV,2015,Yellow,60619
+Truck,1984,Yellow,149483
+Convertible,1986,Red,103377
+Sedan ,1980,Silver,9841
+Sedan ,1982,Red,57481
+SUV,2008,Black,39574
+Convertible,1975,White,87144
+Sedan ,1988,Black,168578
+Sedan ,2002,Silver,194376
+Sedan ,2005,Red,81320
+Sedan ,2015,Red,233372
+SUV,1985,Red,194692
+Truck,1983,Blue,68309
+Convertible,1976,Black,13206
+Sedan ,1999,Black,214981
+Truck,1979,White,188377
+SUV,1983,Red,41636
+Sedan ,1976,Red,140945
+Sedan ,2005,Red,228981
+SUV,2006,Red,30103
+Truck,2003,Blue,153715
+Convertible,2002,Black,62797
+Sedan ,1984,Black,121358
+Truck,1999,White,66976
+SUV,1985,Red,12963
+Sedan ,1993,Red,158826
+SUV,2022,Red,6918
+Truck,1991,Blue,216586
+Convertible,1993,Black,248508
+Sedan ,1982,Black,126906
+Truck,1993,White,197650
+SUV,2019,Red,61480
+Sedan ,1996,Red,239349
+SUV,1980,Red,125806
+Truck,2017,Black,78527
+Convertible,1983,White,114844
+SUV,1983,Black,246894
+Convertible,1986,Silver,4116
+SUV,2006,Yellow,102570
+Truck,1984,Yellow,240299
+Convertible,1987,Red,224270
+Sedan ,2015,Silver,120280
+Sedan ,2004,Red,89519
+SUV,1993,Black,43968
+Convertible,2016,White,68506
+Sedan ,2020,Black,102801
+Sedan ,1987,Silver,215136
+Sedan ,1990,Red,62272
+Sedan ,1984,Red,103061
+SUV,2012,Red,200267
+Truck,1975,Blue,190220
+Convertible,1995,Black,63674
+Sedan ,1977,Black,159110
+Truck,2012,White,200343
+SUV,1982,Red,78254
+Sedan ,1989,Red,76345
+Sedan ,2014,Red,98468
+SUV,1978,Red,109689
+Truck,2017,Blue,123280
+Convertible,2001,Black,59344
+Sedan ,2018,Black,67699
+Truck,1990,White,22853
+SUV,2009,Red,84181
+Sedan ,2018,Red,107178
+SUV,1996,Red,150323
+Truck,1996,Blue,51082
+Convertible,1998,Black,244822
+Sedan ,1977,Black,106871
+Truck,2002,White,72626
+SUV,1987,Red,60720
+Sedan ,1979,Red,144545
+SUV,1998,Red,27408
+Truck,2018,Black,98841
+Convertible,1994,White,29622
+SUV,2005,Black,18489
+Convertible,1989,Silver,180552
+SUV,2000,Yellow,189244
+Truck,2015,Yellow,249994
+Convertible,2001,Red,124434
+Sedan ,1982,Silver,224382
+Sedan ,2007,Red,218655
+SUV,2022,Black,41156
+Convertible,2013,White,194174
+Sedan ,2007,Black,171240
+Sedan ,1981,Silver,215141
+Sedan ,2012,Red,230536
+Sedan ,2018,Red,241531
+SUV,2006,Red,97451
+Truck,1998,Blue,192747
+Convertible,2004,Black,61523
+Sedan ,1981,Black,127684
+Truck,2021,White,83307
+SUV,2004,Red,230706
+Sedan ,2012,Red,218376
+Sedan ,1992,Red,90841
+SUV,1982,Red,95486
+Truck,1979,Blue,243386
+Convertible,2019,Black,201902
+Sedan ,2013,Black,145484
+Truck,2008,White,81922
+SUV,2003,Red,54149
+Sedan ,1995,Red,237139
+SUV,1998,Red,6713
+Truck,2012,Blue,52364
+Convertible,1977,Black,99083
+Sedan ,2020,Black,176100
+Truck,2014,White,47294
+SUV,1986,Red,34250
+Sedan ,2010,Red,98372
+SUV,1996,Red,233200
+Truck,2008,Black,98364
+Convertible,2015,White,204549
+SUV,2004,Black,104181
+Convertible,1977,Silver,100201
+SUV,1986,Yellow,132796
+Truck,1979,Yellow,191291
+Convertible,1985,Red,150157
+Sedan ,2023,Silver,191058
+Sedan ,2011,Red,219974
+SUV,2021,Black,85293
+Convertible,2008,White,122700
+Sedan ,1987,Black,232636
+Sedan ,2021,Silver,184987
+Sedan ,2021,Red,59026
+Sedan ,1980,Red,196815
+SUV,1986,Red,245604
+Truck,2014,Blue,142504
+Convertible,1984,Black,13374
+Sedan ,1998,Black,146195
+Truck,1975,White,122774
+SUV,2013,Red,98316
+Sedan ,1992,Red,10063
+Sedan ,2019,Red,79168
+SUV,2002,Red,22121
+Truck,1987,Blue,1091
+Convertible,2022,Black,31142
+Sedan ,1990,Black,137642
+Truck,2008,White,80154
+SUV,1980,Red,183654
+Sedan ,1998,Red,111352
+SUV,2016,Red,15861
+Truck,1995,Blue,21057
+Convertible,2020,Black,33033
+Sedan ,2002,Black,102364
+Truck,2020,White,164060
+SUV,2023,Red,208487
+Sedan ,2011,Red,201693
+SUV,1993,Red,66516
+Truck,1980,Black,89438
+Convertible,1977,White,11670
+SUV,1975,Black,132565
+Convertible,1980,Silver,82104
+SUV,2000,Yellow,97052
+Truck,2020,Yellow,92596
+Convertible,2018,Red,126328
+Sedan ,1991,Silver,191641
+Sedan ,2022,Red,208507
+SUV,2020,Black,81409
+Convertible,1989,White,46881
+Sedan ,1999,Black,90490
+Sedan ,2018,Silver,73362
+Sedan ,1989,Red,185881
+Sedan ,1984,Red,12859
+SUV,2012,Red,198752
+Truck,1984,Blue,146001
+Convertible,2015,Black,70700
+Sedan ,1995,Black,14865
+Truck,1993,White,142622
+SUV,2011,Red,248445
+Sedan ,1998,Red,94772
+Sedan ,2009,Red,61036
+SUV,1995,Red,210037
+Truck,1980,Blue,193882
+Convertible,1985,Black,94228
+Sedan ,1986,Black,423
+Truck,2012,White,8344
+SUV,1979,Red,241356
+Sedan ,1996,Red,145947
+SUV,2011,Red,247900
+Truck,1994,Blue,184430
+Convertible,1986,Black,2963
+Sedan ,2011,Black,72532
+Truck,1999,White,88379
+SUV,2018,Red,232484
+Sedan ,1975,Red,104287
+SUV,2022,Red,191057
+Truck,2022,Black,12858
+Convertible,1980,White,115916
+SUV,1999,Black,13546
+Convertible,1978,Silver,99550
+SUV,1992,Yellow,100919
+Truck,1996,Yellow,182477
+Convertible,1994,Red,214509
+Sedan ,2014,Silver,120514
+Sedan ,1995,Red,46807
+SUV,2018,Black,15642
+Convertible,1989,White,135154
+Sedan ,1978,Black,83781
+Sedan ,2010,Silver,120746
+Sedan ,2011,Red,165096
+Sedan ,1994,Red,205187
+SUV,1995,Red,143494
+Truck,2015,Blue,174373
+Convertible,2008,Black,3435
+Sedan ,1992,Black,127929
+Truck,2005,White,174773
+SUV,1990,Red,6436
+Sedan ,2012,Red,109645
+Sedan ,2007,Red,113568
+SUV,1978,Red,31359
+Truck,1992,Blue,54670
+Convertible,2023,Black,245596
+Sedan ,2006,Black,61470
+Truck,1993,White,13907
+SUV,1994,Red,66221
+Sedan ,1996,Red,132535
+SUV,2004,Red,41020
+Truck,2006,Blue,238854
+Convertible,2005,Black,10081
+Sedan ,1980,Black,65167
+Truck,2009,White,26346
+SUV,2006,Red,148307
+Sedan ,1983,Red,209491
+SUV,1995,Red,161897
+Truck,1986,Black,243007
+Convertible,1976,White,154430
+SUV,1977,Black,73192
+Convertible,1981,Silver,140981
+SUV,1990,Yellow,49095
+Truck,2004,Yellow,28738
+Convertible,2006,Red,23731
+Sedan ,2010,Silver,183527
+Sedan ,1986,Red,170389
+SUV,1989,Black,81872
+Convertible,1991,White,6513
+Sedan ,1982,Black,89311
+Sedan ,2006,Silver,123213
+Sedan ,1997,Red,117703
+Sedan ,1999,Red,110551
+SUV,2023,Red,231459
+Truck,1990,Blue,145276
+Convertible,2018,Black,72243
+Sedan ,1992,Black,110864
+Truck,1997,White,169160
+SUV,2003,Red,117658
+Sedan ,2001,Red,43035
+Sedan ,1982,Red,235145
+SUV,2000,Red,101816
+Truck,2017,Blue,146199
+Convertible,2023,Black,100578
+Sedan ,2018,Black,105093
+Truck,2000,White,52042
+SUV,2000,Red,20464
+Sedan ,1993,Red,25937
+SUV,2011,Red,239557
+Truck,2015,Blue,172935
+Convertible,1977,Black,90822
+Sedan ,2022,Black,243142
+Truck,1998,White,174852
+SUV,1997,Red,220544
+Sedan ,2007,Red,5806
+SUV,2016,Red,39173
+Truck,1998,Black,39822
+Convertible,1991,White,240243
+SUV,1997,Black,39054
+Convertible,2009,Silver,192062
+SUV,2005,Yellow,30692
+Truck,1983,Yellow,130146
+Convertible,1986,Red,127612
+Sedan ,2015,Silver,156735
+Sedan ,2010,Red,169939
+SUV,2022,Black,25055
+Convertible,1992,White,100638
+Sedan ,2019,Black,121311
+Sedan ,1988,Silver,237521
+Sedan ,1981,Red,207572
+Sedan ,1986,Red,16509
+SUV,1998,Red,61995
+Truck,1988,Blue,122134
+Convertible,2021,Black,70986
+Sedan ,2003,Black,140076
+Truck,2019,White,199923
+SUV,1994,Red,11704
+Sedan ,2009,Red,224015
+Sedan ,2010,Red,84575
+SUV,1985,Red,7406
+Truck,1998,Blue,30175
+Convertible,1998,Black,187206
+Sedan ,1997,Black,149041
+Truck,1998,White,184288
+SUV,2018,Red,37125
+Sedan ,2006,Red,159890
+SUV,1998,Red,71095
+Truck,1986,Blue,213649
+Convertible,1985,Black,245721
+Sedan ,1980,Black,133658
+Truck,1990,White,235558
+SUV,1988,Red,18307
+Sedan ,1985,Red,204123
+SUV,2013,Red,215320
+Truck,1990,Black,186139
+Convertible,2004,White,232113
+SUV,2010,Black,202138
+Convertible,1983,Silver,155617
+SUV,1987,Yellow,7603
+Truck,2007,Yellow,65470
+Convertible,1992,Red,248226
+Sedan ,1985,Silver,3324
+Sedan ,2018,Red,188354
+SUV,1992,Black,88609
+Convertible,2007,White,146024
+Sedan ,2017,Black,49321
+Sedan ,1981,Silver,116576
+Sedan ,2002,Red,211341
+Sedan ,2001,Red,70428
+SUV,1977,Red,114349
+Truck,1992,Blue,159898
+Convertible,1996,Black,85758
+Sedan ,1995,Black,227649
+Truck,1981,White,86805
+SUV,2003,Red,112397
+Sedan ,1997,Red,138495
+Sedan ,2017,Red,45325
+SUV,1978,Red,71616
+Truck,2008,Blue,215394
+Convertible,2010,Black,102789
+Sedan ,1981,Black,157597
+Truck,1979,White,129405
+SUV,1990,Red,40065
+Sedan ,2004,Red,158799
+SUV,1975,Red,129054
+Truck,1992,Blue,104989
+Convertible,1995,Black,146421
+Sedan ,2021,Black,147646
+Truck,1993,White,150225
+SUV,1999,Red,91081
+Sedan ,1982,Red,160129
+SUV,2009,Red,49568
+Truck,2011,Black,39808
+Convertible,2018,White,127055
+SUV,1980,Black,88882
+Convertible,2015,Silver,240203
+SUV,1975,Yellow,110022
+Truck,1986,Yellow,212242
+Convertible,1985,Red,84524
+Sedan ,1998,Silver,93136
+Sedan ,2023,Red,211967
+SUV,2012,Black,161823
+Convertible,2005,White,46359
+Sedan ,1980,Black,242584
+Sedan ,1984,Silver,157688
+Sedan ,2018,Red,16756
+Sedan ,1976,Red,171265
+SUV,2001,Red,12179
+Truck,1993,Blue,7082
+Convertible,1990,Black,8415
+Sedan ,2018,Black,9396
+Truck,1997,White,1457
+SUV,2007,Red,8979
+Sedan ,2003,Red,140184
+Sedan ,2022,Red,149194
+SUV,2012,Red,60286
+Truck,1993,Blue,89009
+Convertible,2001,Black,186426
+Sedan ,2005,Black,243629
+Truck,1988,White,228349
+SUV,2020,Red,83840
+Sedan ,2008,Red,237309
+SUV,2013,Red,48709
+Truck,2011,Blue,12091
+Convertible,1998,Black,4691
+Sedan ,1993,Black,62669
+Truck,1980,White,83048
+SUV,1981,Red,111935
+Sedan ,2010,Red,71379
+SUV,1981,Red,123813
+Truck,1985,Black,228651
+Convertible,2012,White,35944
+SUV,2013,Black,35999
+Convertible,1994,Silver,91974
+SUV,2002,Yellow,146841
+Truck,2010,Yellow,180035
+Convertible,1984,Red,63757
+Sedan ,1996,Silver,235053
+Sedan ,2020,Red,52613
+SUV,1992,Black,48171
+Convertible,1991,White,158842
+Sedan ,2021,Black,25926
+Sedan ,1976,Silver,161360
+Sedan ,1978,Red,73355
+Sedan ,1993,Red,230129
+SUV,1985,Red,137395
+Truck,2004,Blue,227617
+Convertible,2001,Black,225971
+Sedan ,1986,Black,91273
+Truck,1999,White,8510
+SUV,2018,Red,39919
+Sedan ,1987,Red,80076
+Sedan ,2009,Red,27418
+SUV,2014,Red,75464
+Truck,2015,Blue,105526
+Convertible,2009,Black,74137
+Sedan ,1999,Black,223435
+Truck,2023,White,40972
+SUV,2001,Red,75369
+Sedan ,2014,Red,207714
+SUV,1982,Red,81688
+Truck,2022,Blue,31183
+Convertible,1984,Black,212368
+Sedan ,1984,Black,231886
+Truck,2006,White,150668
+SUV,1976,Red,7357
+Sedan ,2010,Red,87867
+SUV,2008,Red,70513
+Truck,2018,Black,134001
+Convertible,1991,White,20708
+SUV,1975,Black,199626

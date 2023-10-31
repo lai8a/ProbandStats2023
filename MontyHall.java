@@ -1,10 +1,11 @@
-//--------------------------------------------------------------------
-// Laiba Khan, CSCI3327 Probability and Applied Statistics
-// Chapter 2:
-// StatsLibrary: Monty Hall Problem
-//--------------------------------------------------------------------
-
-import java.util.Random;
+/**--------------------------------------------------------------------
+ * @author Laiba Khan, CSCI3327 Probability and Applied Statistics
+ * 10/30/2023
+ * Mini Programming Project
+ * StatsLibrary: Monty Hall Problem
+ --------------------------------------------------------------------
+ */
+ import java.util.Random;
 
 public class MontyHall {
 
