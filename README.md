@@ -1,6 +1,6 @@
 StatsLibrary
 10/30/2023
-Laiba Khan, Probability and Applied Statistics CSCI 3327 Fall 2023
+Laiba Khan, Fall 2023
 ------------------------------------------------------------------
 All the submissions listed below are included in this repository.
 
